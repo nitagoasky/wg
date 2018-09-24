@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:background="#F7F7F7"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/text_id"
+        android:layout_width="980px"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:textStyle="bold"
+        android:textColor="#303030"
+        android:text="@string/text"
+        android:textSize="60px"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="100px"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@android:drawable/btn_star_big_on"/>
+
+        <Button
+            android:id="@+id/sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUB"/>
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
